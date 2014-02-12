@@ -112,9 +112,7 @@ class Unzip
     {
         $pathParts = explode('/', $path);
 
-        if (!strncmp($path, '/', 1) ||
-            array_search('..', $pathParts) !== false ||
-            strpos($path, ':') !== false)
+        if (array_search('..', $pathParts) !== false)
         {
             return false;
         }
