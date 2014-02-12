@@ -6,6 +6,8 @@ This is a refactoring of my Piwik_Unzip_ZipArchive class.  It now requires
 php 5.3.6+, uses namespaces, adheres to object calisthenics, and is re-licensed
 as MIT.
 
+** All the work belongs to Anthon Pang; my contribution was only to be less restrictive regarding the names og the files in the ZIP when unzipping. It's probably less secure, but was mandatory in some projects **
+
 ## Features
 
 * Simple to use!
